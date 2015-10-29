@@ -19,10 +19,6 @@ public class Week10_Lab1
 		int iCountEven = 0;
 		int iCountResult = 0;
 		String sGuess;
-		//int iHigh, iLow;
-		
-		//iLow = Integer.parseInt(JOptionPane.showInputDialog("Enter low value: "));
-		//iHigh = Integer.parseInt(JOptionPane.showInputDialog("Enter high value: "));
 		
 		for (int i = 0; i < 10; i++)
 		{
