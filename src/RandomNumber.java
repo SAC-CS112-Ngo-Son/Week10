@@ -9,4 +9,10 @@ public class RandomNumber
 		return rand.nextInt(10) + 1;
 	}
 	
+	public int GetANumber(int high)
+	{
+		Random rand = new Random();
+		return rand.nextInt(high + 1);
+	}
+	
 }
