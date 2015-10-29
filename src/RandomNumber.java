@@ -2,8 +2,6 @@ import java.util.Random;
 
 public class RandomNumber
 {
-
-	private int iLo, iHi;
 	
 	/*public int GetANumber()
 	{
@@ -22,6 +20,8 @@ public class RandomNumber
 		Random rand = new Random();
 		return rand.nextInt(hi - lo + 1) + lo;
 	}*/
+	
+	private int iLo, iHi;
 	
 	public void SetLowNumber(int low)
 	{
