@@ -3,7 +3,9 @@ import java.util.Random;
 public class RandomNumber
 {
 
-	public int GetANumber()
+	private int iLo, iHi;
+	
+	/*public int GetANumber()
 	{
 		Random rand = new Random();
 		return rand.nextInt(10) + 1;
@@ -19,6 +21,22 @@ public class RandomNumber
 	{
 		Random rand = new Random();
 		return rand.nextInt(hi - lo + 1) + lo;
+	}*/
+	
+	public void SetLowNumber(int low)
+	{
+		iLo = low;
+	}
+	
+	public void SetHighNumber (int high)
+	{
+		iHi = high;
+	}
+	
+	public int GetANumber()
+	{
+		Random rand = new Random();
+		return rand.nextInt(iHi - iLo + 1) + iLo;
 	}
 	
 }
